@@ -1,0 +1,14 @@
+{
+  "name": "sass_portfolio",
+  "version": "1.0.0",
+  "description": "Sass Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "SASS:COMPILER": "node-sass Sass/main.scss Stylesheet/style.css -w"
+  },
+  "author": "Sibusiso Labi",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

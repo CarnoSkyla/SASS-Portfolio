@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="https://kit.fontawesome.com/8a5557b556.js"></script>
+    <meta charset="utf-8">
+    <title>SASS Portfolio</title>
+    <link rel="stylesheet" href="Stylesheet/style.css">
+    <link rel="icon" href="Images/download.png" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content-wrapper">
+        <div class="header__logo-navbox">
+          <div class="header__logo-container">
+            <img src="Images/logo3.png" alt="My Logo" height="150">
+          </div>
+
+        </div>
+
+        <div class="header__intro">
+          <h1 class="heading-primary">
+            <span class="heading-primary--main">Sibusiso Labi</span>
+            <span class="heading-primary--sub">Web Developer/UI Designer</span>
+          </h1>
+          <a class="btn" href="#portfolio">VIEW MY WORK</a>
+        </div>
+
+      </div>
+
+    </header>
+
+    <main>
+
+      <section class="section-about">
+        <div class="row">
+          <div class="col-1-of-2">
+            <img src="Images/s.jpg" height="450" width="300" alt="My Image">
+          </div>
+
+          <div class="col-1-of-2">
+            <div class="about">
+              <h2>About Me</h2>
+              <p>Aspiring, innovative and self-driven Web Developer/User Interface Designer who possesses the necessary qualities required to succeed in the IT Industry. Exuding confidence in everything I do, I always look to strive and prosper. My interests include Data Analytics and Cloud Computing.</p>
+            </div>
+            <div class="skills">
+              <h2>My <span style="color: rgba(23,104,196,0.86);">Skills</span></h2>
+              <div class="skills-box"  style="margin-bottom: 2rem">
+                <div class="skills-box--html">
+                  <h3 style="margin-left: 2rem;">HTML</h3>
+                  <div class="skills-box--html-BAR">
+
+                    <span style="font-size: 2.5rem">HTML</span>
+                  </div>
+                </div>
+                <div class="skills-box--css">
+                  <h3 style="margin-left: 2rem;">SASS & CSS</h3>
+                  <div class="skills-box--css-BAR" style="margin-bottom: 3rem;">
+                    <h2>80%</h2>
+                  </div>
+                </div>
+                <div class="skills-box--javascript">
+                  <h3 style="margin-left: 2rem;">JAVASCRIPT</h3>
+
+                  <div class="skills-box--javascript-BAR" style="margin-bottom: 3rem;">
+                    60%
+                  </div>
+                </div>
+                <div class="skills-box--wordpress" style="margin-bottom: 13rem;">
+                  <h3 style="margin-left: 2rem;">WORDPRESS</h3>
+
+                  <div class="skills-box--wordpress-BAR" style="margin-bottom: 13rem;">
+                    <span style="font-size: 2rem;">9%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="section-services">
+        <h2>My Services</h2>
+        <hr>
+        <div class="services-box">
+          <div class="services-box__skill">
+            <div class="services-box__skill--iconbox">
+              <img src="Images/markup.png" height="100" alt="">
+            </div>
+            <div class="services-box__skill--contentbox">
+              <h3>HTML</h3>
+            </div>
+          </div>
+          <div class="services-box__skill">
+            <div class="services-box__skill--iconbox">
+              <img src="Images/style.png" height="100" width="100" alt="">
+            </div>
+            <div class="services-box__skill--contentbox">
+              <h3>CSS</h3>
+            </div>
+          </div>
+          <div class="services-box__skill">
+            <div class="services-box__skill--iconbox">
+              <img src="Images/jscript.png" height="100" alt="">
+            </div>
+            <div class="services-box__skill--contentbox">
+              <h3>JAVASCRIPT</h3>
+            </div>
+          </div>
+          <div class="services-box__skill">
+            <div class="services-box__skill--iconbox">
+              <img src="Images/word.png" height="100" alt="">
+            </div>
+            <div class="services-box__skill--contentbox">
+              <h3>WORDPRESS</h3>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="section-portfolio" id="portfolio">
+
+        <figure class="figure">
+          <h2 style="font-size: 4rem; text-align: center;">My <span style="color: #ffaa23">Portfolio</span></h2>
+          <button type="button" name="button" id="btn">VIEW MORE</button>
+          <div class="figure__heading">
+
+            <hr />
+          </div>
+          <div class="portfolio__box">
+            <div class="portfolio__box--skill">
+                <img src="Images/naledi.png" height="150" alt="">
+                <h3>WORDPRESS</h3>
+              </div>
+            <div class="portfolio__box--skill">
+                <img src="Images/carno_mp3.png" height="150" alt="">
+                <h3>WORDPRESS</h3>
+            </div>
+            <div class="portfolio__box--skill">
+                <img src="Images/responsive.png" height="150" alt="">
+                <h3>WORDPRESS</h3>
+            </div>
+            <div class="portfolio__box--skill">
+                <img src="Images/naledi.png" height="150" alt="">
+                <h3>WORDPRESS</h3>
+            </div>
+
+          </div>
+        </figure>
+
+      </section>
+
+      <section class="section-contact">
+        <div class="section-contact__form-container">
+          <h2 class="section-contact--heading">Hit M<span style="color: aqua;">e</span> Up</h2>
+          <form class="section-contact__form" id="form">
+            <input type="email" placeholder="Enter Your Email" id="email">
+            <button type="submit" name="button" id="submit-btn">Submit</button>
+          </form>
+
+          <div class="section-contact--details">
+            <div class="section-contact--detail-phone">
+              <i class="fas fa-phone-alt" style="filter: Invert(100%); font-size: 4rem;"></i>
+              <h2 style="font-size: 2.5rem; color: aqua">0627258355</h2>
+            </div>
+            <div class="section-contact--detail-phone">
+              <i class="fas fa-map-marker-alt" style="filter: Invert(100%); font-size: 4rem;"></i>
+              <h2 style="font-size: 2.5rem; color: aqua">Zone 26, No 4, Langa Township, 7455</h2>
+            </div>
+            <div class="section-contact--detail">
+              <i class="fas fa-envelope" style="filter: Invert(100%); font-size: 4rem;"></i>
+              <h2 style="font-size: 2.5rem; color: aqua">sibusiso@quirky30.co.za</h2>
+            </div>
+            <div class="section-contact--detail">
+              <i class="fas fa-check-circle" style="filter: Invert(100%); font-size: 4rem;"></i>
+              <h2 style="font-size: 2.5rem; color: aqua">Freelance Available</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="JS/index.js">
+
+    </script>
+  </body>
+</html>
