@@ -4,7 +4,7 @@ function moveHtml() {
   var width = 1;
   var id = setInterval(frame, 20);
   function frame() {
-    if (width >= 90) {
+    if (width >= 70) {
       clearInterval(id);
     } else {
       width++;
@@ -17,7 +17,7 @@ function moveHtml() {
   var widthCss = width;
   var idCss = setInterval(frameCss, 20);
   function frameCss() {
-    if (widthCss >= 83) {
+    if (widthCss >= 70) {
       clearInterval(idCss);
     } else {
       widthCss++;
@@ -30,7 +30,7 @@ function moveHtml() {
   var widthJs = width;
   var idJs = setInterval(frameJs, 20);
   function frameJs() {
-    if (widthCss >= 61) {
+    if (widthCss >= 45) {
       clearInterval(idJs);
     } else {
       widthJs++;
@@ -56,7 +56,7 @@ function moveHtml() {
 
 var btn = document.getElementById('btn');
 btn.addEventListener('click', function() {
-  window.location.href = 'https://github.com/';
+  window.location.href = 'https://github.com/CarnoSkyla';
 })
 
 var form = document.getElementById('form');
