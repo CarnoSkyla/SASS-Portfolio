@@ -272,10 +272,10 @@ html {
     margin: 6rem 0; }
     .section-contact--details .section-contact--detail-phone {
       display: inline-block;
-      margin-right: 3rem; }
+      margin-right: 6rem; }
     .section-contact--details .section-contact--detail {
       display: inline-block;
-      margin-right: 3rem; }
+      margin-right: 6rem; }
   .section-contact--heading {
     font-size: 5rem; }
   .section-contact__form input {
@@ -295,11 +295,10 @@ html {
     border: 0.4rem solid #d0e4f7;
     font-size: 2rem;
     border-radius: 10rem;
-    box-shadow: 1px 1px 1px #79b2e8, 1px 2px 1px #79b2e8, 1px 3px 1px #79b2e8, 1px 4px 1px #79b2e8, 1px 5px 1px #79b2e8, 1px 6px 1px #79b2e8, 1px 7px 1px #79b2e8, 1px 8px 1px #79b2e8, 1px 9px 1px #79b2e8, 1px 10px 1px #79b2e8, 1px 18px 6px rgba(16, 16, 16, 0.1), 1px 22px 10px rgba(16, 16, 16, 0.1), 1px 25px 35px rgba(16, 16, 16, 0.1), 1px 30px 60px rgba(16, 16, 16, 0.1); }
+    box-shadow: 1px 1px 1px #93CCEE, 1px 2px 1px #93CCEE, 1px 3px 1px #93CCEE, 1px 4px 1px #93CCEE, 1px 5px 1px #93CCEE, 1px 6px 1px #93CCEE, 1px 7px 1px #93CCEE, 1px 8px 1px #93CCEE, 1px 9px 1px #93CCEE, 1px 10px 1px #93CCEE, 1px 18px 6px rgba(16, 16, 16, 0.1), 1px 22px 10px rgba(16, 16, 16, 0.1), 1px 25px 35px rgba(16, 16, 16, 0.1), 1px 30px 60px rgba(16, 16, 16, 0.1); }
     .section-contact__form button:hover {
-      transform: matrix(1, -0.3, 0, 1, 0, 0);
       transition: all 1s cubic-bezier(0.77, 0, 0.175, 1);
-      box-shadow: 2rem 2rem #ffaa23;
+      box-shadow: 2rem 2rem #93CCEE;
       cursor: pointer; }
 
 @media screen and (max-width: 992px) {
